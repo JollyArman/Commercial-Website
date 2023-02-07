@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    ;
+}
+
+.nav {
+    background-color: rgb(48, 48, 48);
+    height: 30rem;
+    width: 100%;
+    text-align: center;
+}
+
+.nav h1 {
+    font-size: 7rem;
+    font-weight: 800;
+    /* letter-spacing: .1rem; */
+    text-align: center;
+    color: rgb(87, 228, 87);
+    padding-top: 10rem;
+
+}
+
+.nav p {
+    font-size: 2.2rem;
+    color: rgb(71, 186, 71);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 1.5rem;
+
+}
+
+.green-nav {
+    background-color: rgb(71, 186, 71);
+    margin-top: 3rem;
+    /* text-align: center; */
+}
+
+.green-nav li {
+    color: white;
+    float: left;
+    list-style: none;
+    font-size: 1.7rem;
+    /* background-color: rgb(70, 134, 70); */
+    margin-left: 5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+
+}
+
+.active {
+    background-color: rgb(70, 134, 70);
+}
+
+.green-nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.img {
+    margin-top: 4rem;
+}
+
+.img img {
+    width: 100%;
+}
+
+/* --------------main section-------------------------------- */
+
+.main {
+    margin-top: 5rem;
+}
+
+.main-left {
+    float: left;
+    width: 40%;
+}
+
+.main-right {
+    float: right;
+    width: 50%;
+}
+
+.main-left .div1 h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    /* margin-bottom: 2rem; */
+}
+
+.main-left .div1 hr {
+    color: gray;
+    margin: 1.4rem 0;
+}
+
+.main-left .div1 p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #454545;
+}
+
+.main-left .div1 h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    /* margin-bottom: 2rem; */
+    color: rgb(71, 186, 71);
+}
+
+.main-left .div1 hr {
+    color: gray;
+    margin: 1.4rem 0;
+}
+
+
+
+/* ----------------------------------------------------------- */
+.main-left .div2 {
+    margin: 3rem 0;
+}
+
+
+.main-left .div2 h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    /* margin-bottom: 2rem; */
+    color: rgb(71, 186, 71);
+}
+
+.main-left .div2 hr {
+    color: gray;
+    margin: 1.4rem 0;
+}
+
+.main-left .div2 p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #757575;
+}
+
+/* --------------------main right--------------------------- */
+
+.main-right h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: rgb(71, 186, 71);
+
+}
+
+.main-right h5 {
+    font-weight: 500;
+    margin: 2rem 0;
+    font-size: 1rem;
+    color: #888888;
+}
+
+.main-right span {
+    color: #232323;
+    font-size: 1.2rem;
+}
+
+.main-right p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #757575;
+}
+
+/* -----------------media query starts------------------------ */
+
+
+@media only screen and (max-width: 1120px) {
+    html {
+        font-size: 9px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 590px) {
+    html {
+        font-size: 9px;
+    }
+
+    .container {
+        width: 97%;
+    }
+
+    .green-nav li {
+        color: white;
+        float: left;
+        list-style: none;
+        font-size: 1.4rem;
+        margin-left: 1rem;
+        padding: 1rem 1.4rem;
+
+
+    }
+}
+
+
+@media only screen and (max-width: 610px) {
+    html {
+        font-size: 8px;
+    }
+
+    .green-nav li {
+        color: white;
+        float: left;
+        list-style: none;
+        font-size: 1.3rem;
+        margin-left: 2rem;
+        padding: .8rem 1.5rem;
+
+    }
+
+    .nav h1 {
+        font-size: 5.5rem;
+        padding-bottom: 1rem;
+
+
+    }
+
+    .nav p {
+        font-size: 1.8rem;
+
+
+    }
+}
